@@ -27,7 +27,7 @@ def main():
         p_a = p_a + 1
         cvs.create_image(p_x, 400, image=player[p_a%4])
         print(p_a%4)
-    root.after(100, main)
+    root.after(150, main)
     
 root = tk.Tk()
 root.bind("<Key>", pkey)
